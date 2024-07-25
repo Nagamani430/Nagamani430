@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner str=new Scanner(System.in);
+        String s=str.nextLine();
+        String vowels="aeiouAEIOU";
+        int vowelscount=0;
+        for(int i=0;i<s.length();i++)
+        {
+            char ch=s.charAt(i);
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+            {
+                vowelscount++;
+            }
+        }
+        System.out.println(vowelscount+" ");
+    }
+}
