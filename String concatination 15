@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner str=new Scanner(System.in);
+        String s1=str.nextLine();
+        String s2=str.nextLine();
+        System.out.print(s1+" "+s2+" ");
+    }
+}
